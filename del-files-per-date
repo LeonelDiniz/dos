@@ -1,0 +1,4 @@
+forfiles /p "C:\Users\leonel.diniz\Desktop\find" /s /m *.prw /c "cmd /c del @file" /D -90
+
+dir /T:C  *.pdf
+
